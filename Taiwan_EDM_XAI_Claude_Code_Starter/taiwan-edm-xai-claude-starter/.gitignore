@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+.env.*
+node_modules/
+dist/
+.DS_Store
+# Keep toy demo tiny cache optional; NEVER commit actual weather datasets/checkpoints.
+data/actual/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.zarr/

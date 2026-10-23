@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1-demo",
+  "data_status": "synthetic_demo",
+  "warning": "SYNTHETIC TEACHING DATA ONLY. Not actual Taiwan geography, checkpoint, atmospheric fields, or EDM inference.",
+  "cases": [
+    "20171220",
+    "20180103",
+    "20180112",
+    "20180204"
+  ],
+  "cohorts": {
+    "winter": [
+      "20171220",
+      "20180103",
+      "20180112",
+      "20180204"
+    ]
+  },
+  "perturbation": {
+    "variable": "q700",
+    "input_roi": "north",
+    "magnitude": 0.5
+  },
+  "metadata": {
+    "checkpoint": null,
+    "origin": "numpy synthetic generator: scripts/generate_demo_cache.py",
+    "map_shape": [
+      12,
+      10
+    ],
+    "step_metadata": [
+      {
+        "index": 0,
+        "sigma": 80.0,
+        "source": "synthetic_progress_only"
+      },
+      {
+        "index": 1,
+        "sigma": 15.0,
+        "source": "synthetic_progress_only"
+      },
+      {
+        "index": 2,
+        "sigma": 3.0,
+        "source": "synthetic_progress_only"
+      },
+      {
+        "index": 3,
+        "sigma": 0.5,
+        "source": "synthetic_progress_only"
+      },
+      {
+        "index": 4,
+        "sigma": 0.0,
+        "source": "synthetic_progress_only"
+      }
+    ],
+    "layer_ids": [
+      "encoder_toy",
+      "middle_toy",
+      "decoder_toy"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "units": "mm/day (synthetic numerical scale)"
+  }
+}
